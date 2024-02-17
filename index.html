@@ -1,0 +1,352 @@
+<!-- 
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+    IGNORE THIS FILE, IT'S PURPOSE IS TO SHOW THE HTML CODE FOR THE WEBSITE IN GITHUB
+ -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>P01 Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar --><!-- Login and cart Modal -->
+        <nav class="navbar navbar-expand-lg navbar-bright bg-bright shadow">
+            <div class="container-fluid">
+                <!-- Image -->
+                <a class="navbar-brand" href="#">
+                    <img src="https://seeklogo.com/images/T/twenty-one-pilots-logo-16DF28CAA5-seeklogo.com.png"
+                        width="30" height="30" class="d-inline-block align-text-top" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="P01_about_us.html">About Us</a>
+                        </li>
+                        <!-- Productc -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="P01_cat_A.html">Products A</a></li>
+                                <li><a class="dropdown-item" href="P01_cat_B.html">Products B</a></li>
+                            </ul>
+                        </li>
+                        <!-- Seach bar -->
+                        <li class="nav-item">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search"
+                                    aria-label="Search" />
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                    </ul>
+                    <!-- Login and Cart -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link bi bi-person-fill" href="#" data-bs-toggle="modal"
+                                data-bs-target="#loginModal">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bi bi-cart-fill" href="P01_cart.html" aria-label="Cart"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Login Modal and register modal-->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">Log In</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="email" class="form-label">Email</label>
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                    required />
+                                <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                            </div>
+                            <label for="password" class="form-label">Password</label>
+                            <div class="input-group mb-3">
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Enter your password" required />
+                                <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
+                            </div>
+                            <input class="form-check-input" type="checkbox" value="" id="remember" />
+                            <label class="form-check-label" for="remember"> Remember </label>
+                            <div class="d-grid gap 1">
+                                <button type="submit" class="btn btn-primary mt-3">
+                                    Login
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                        <div class="container-fluid text-center">Don't have an account? <a href=""
+                                data-bs-toggle="modal" data-bs-target="#registerModal"> Sign up here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Register Modal -->
+        <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">Register</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control col-6" placeholder="First Name" />
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control col-6" placeholder="Last Name" />
+                                    </div>
+                                </div>
+                                <input type="email" class="form-control mt-3" placeholder="Enter your email" />
+                                <input type="password" class="form-control mt-3" placeholder="Password" />
+                                <input type="password" class="form-control mt-3" placeholder="Confirm password" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Carousel with 3 img, max-height 40vh-->
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images8.alphacoders.com/822/822541.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="https://wallpapergod.com/images/hd/twenty-one-pilots-1920X1080-wallpaper-gg53fmzth1l23ruo.jpeg"
+                        class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/originals/43/45/11/434511a164308e992d19a57bf6055593.jpg"
+                        class="d-block w-100" />
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+            <!-- Carousel indicator -->
+            <div class="containerIndicators">
+                <ol class="carousel-indicators justify-content-center">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="container mt-3 mb-3">
+            <div class="row shado">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card h-100 shadow-lg">
+                        <img src="https://indierocks.sfo3.digitaloceanspaces.com/wp-content/uploads/2015/05/Blurryface_album_cover.jpg"
+                            class="card-img-top max-height" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Blurryface</h5>
+                            <p class="card-text">
+                                Bluryface is an album by Twenty One Pilots, released in 2015. It's the most popular
+                                album.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card h-100 shadow-lg">
+                        <img src="https://i.ebayimg.com/images/g/9YAAAOSw~Q1grXBV/s-l1200.webp" class="card-img-top"
+                            alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Trench</h5>
+                            <p class="card-text">
+                                Is the second most popular album by Twenty One Pilots, released in 2018.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card h-100 shadow-lg">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2732ca3ba8f334ca5a5f0312efb" class="card-img-top"
+                            alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Heathens</h5>
+                            <p class="card-text">
+                                Heathens is a song realized for the movie suicide squad, released in 2016.
+                                It's one of the most listened songs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card h-100 shadow-lg">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Vessel_by_Twenty_One_Pilots.jpg/220px-Vessel_by_Twenty_One_Pilots.jpg"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Vessel</h5>
+                            <p class="card-text">
+                                Vessel Is the third most listened album, and one of my favorite ones.
+                                Realized on 2013.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card h-100 shadow-lg">
+                        <img src="https://i.pinimg.com/564x/a8/b2/13/a8b213a56f109b1ad852121c386fa649.jpg"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">NED</h5>
+                            <p class="card-text">
+                                NED is a character created by Twenty One Pilots, it's a symbol of hope.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card h-100 shadow-lg">
+                        <img src="https://pm1.aminoapps.com/7065/e3f77e6bb100ac29c708bb16d778e96468fa519dr1-711-711v2_hq.jpg"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Clancy</h5>
+                            <p class="card-text">
+                                Clancy was a character that knows the truth about DEMA, and the bishops.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card h-100 shadow-lg">
+                        <img src="https://pm1.aminoapps.com/7200/d3878d32b67e07db0fce50b3703247fc46de70e7r1-406-363v2_hq.jpg"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Dema</h5>
+                            <p class="card-text">
+                                In the lore, DEMA is a city controlled by the bishops, and the bishops are controlled by
+                                the nine.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
+                    <div class="card h-100 shadow-lg">
+                        <img src="https://www.rollingstone.com/wp-content/uploads/2018/07/Screen-Shot-2018-07-11-at-8.45.28-AM.jpg"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Nico and the Niners</h5>
+                            <p class="card-text">
+                                In the song "Nico and the Niners" are mentioned the bishops, and the nine.
+                                They are in control of DEMA. So the album Trench are about the escape of "DEMA".
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- Page Navigation -->
+        <nav aria-label="Page Navigation" class="float-bottom">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- place footer here -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p>&copy; 2024 by Reimound</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

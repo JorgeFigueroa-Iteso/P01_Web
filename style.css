@@ -1,0 +1,28 @@
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+    object-position: 0 43%;
+}
+
+.parent-element {
+    height: 500px;
+}
+
+.parent-element .carousel-item img {
+    height: 50%;
+}
+
+.carousel-indicators {
+    font-size: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.carousel-indicators .selected {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.containerIndicators ol {
+    width: 150px;
+    margin: 0 auto;
+}
