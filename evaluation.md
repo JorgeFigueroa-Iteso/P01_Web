@@ -12,6 +12,8 @@
 | **COMPLETED** | **Responsive Design**: | 15 |
 | **COMPLETED** | **Order Details** (optional) | 10 |
 
+[Access to the website](https://jorgefigueroa-iteso.github.io/P01_Web/)
+
 ## Resume
 > **Total score:**
 > 110
